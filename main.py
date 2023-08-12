@@ -109,10 +109,6 @@ def get_gmt(time_zone_id):
             return zone.get('GMT')
 
 
-def compare_by_population(city):
-    return city['population']
-
-
 print(get_info('12531557'))
 print(get_cities(10, 20))
 print(get_different_by_cities('Пенза', 'Барнаул'))
